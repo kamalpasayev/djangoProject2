@@ -1,33 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-{% include 'includes/head.html' with title="Home" %}
+{% extends 'layout.html' %}
 
-<body>
+{% block content %}
+    
+    
 
-{% include 'includes/navbar.html' %}
+<div class="row">
+    <div class="col-md-12">
+        <h1>djangoProject</h1>
 
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h1>djangoProject</h1>
-            
-        </div>
-        
     </div>
-  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at commodi, doloribus ea earum eligendi eveniet illo odit officia placeat quam reiciendis rem. Aut, est hic minus nihil non saepe?</span><span>Dolorem eveniet expedita iure laboriosam natus porro tempore veniam vero? Distinctio mollitia sequi similique sit voluptatum. Aspernatur dolorum eius et eveniet, impedit ipsam minima neque, numquam quasi similique tempora veritatis.</span><span>Cum error excepturi minima, nostrum numquam obcaecati reiciendis ut vel. At consequuntur cumque dolores fuga. Omnis saepe velit voluptas. Aperiam autem delectus deleniti distinctio ex excepturi iure neque tempore tenetur?</span><span>Aliquam amet architecto at culpa dicta est et facilis harum inventore, ipsa laudantium libero, minus necessitatibus nemo quas quasi ratione sequi tempora voluptate voluptatum! Aspernatur cum eveniet fugiat incidunt quaerat!</span><span>Ab animi architecto blanditiis culpa delectus dolorem ducimus ea earum eos error ex excepturi fugit harum, maxime omnis quaerat quibusdam quis recusandae sequi soluta velit voluptas voluptate voluptates! Asperiores, deserunt?</span><span>Ad aliquid animi, at blanditiis corporis deserunt dolor dolore doloremque dolores esse fugit iste magni maiores mollitia nam nemo nobis nostrum, officiis qui quo quos recusandae reprehenderit tempora velit voluptates?</span><span>Accusamus architecto aspernatur autem commodi dignissimos dolorem earum eius enim fugit hic maxime molestiae molestias nihil nostrum, obcaecati porro quaerat reiciendis sapiente sit tempore totam unde vel voluptatem. Iure, repudiandae!</span><span>Exercitationem nostrum similique tenetur? Aliquam autem explicabo fuga fugiat libero nihil omnis possimus quaerat reiciendis repellat. Adipisci atque autem consectetur, debitis ex hic, itaque sapiente sunt tenetur ullam voluptas voluptatibus.</span><span>Aliquam fuga ipsum nisi quia tempore. Alias asperiores atque, distinctio dolores quia quibusdam sint voluptas! A aperiam, ducimus ea minima, minus nemo numquam quasi quia quo repudiandae suscipit vel vitae.</span><span>Aliquid asperiores eaque enim est, expedita incidunt ipsam nobis omnis quo. Deleniti dolorum, eos error harum maiores nisi perferendis suscipit! Ab harum mollitia praesentium sit sunt unde veritatis vero voluptatum.</span></p>
-<div class="card" style="width: 18rem;">
-  <img src="https://placehold.co/450x300" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
+
 </div>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at commodi, doloribus ea earum eligendi eveniet illo odit officia placeat quam reiciendis rem. Aut, est hic minus nihil non saepe?</span><span>Dolorem eveniet expedita iure laboriosam natus porro tempore veniam vero? Distinctio mollitia sequi similique sit voluptatum. Aspernatur dolorum eius et eveniet, impedit ipsam minima neque, numquam quasi similique tempora veritatis.</span><span>Cum error excepturi minima, nostrum numquam obcaecati reiciendis ut vel. At consequuntur cumque dolores fuga. Omnis saepe velit voluptas. Aperiam autem delectus deleniti distinctio ex excepturi iure neque tempore tenetur?</span><span>Aliquam amet architecto at culpa dicta est et facilis harum inventore, ipsa laudantium libero, minus necessitatibus nemo quas quasi ratione sequi tempora voluptate voluptatum! Aspernatur cum eveniet fugiat incidunt quaerat!</span><span>Ab animi architecto blanditiis culpa delectus dolorem ducimus ea earum eos error ex excepturi fugit harum, maxime omnis quaerat quibusdam quis recusandae sequi soluta velit voluptas voluptate voluptates! Asperiores, deserunt?</span><span>Ad aliquid animi, at blanditiis corporis deserunt dolor dolore doloremque dolores esse fugit iste magni maiores mollitia nam nemo nobis nostrum, officiis qui quo quos recusandae reprehenderit tempora velit voluptates?</span><span>Accusamus architecto aspernatur autem commodi dignissimos dolorem earum eius enim fugit hic maxime molestiae molestias nihil nostrum, obcaecati porro quaerat reiciendis sapiente sit tempore totam unde vel voluptatem. Iure, repudiandae!</span><span>Exercitationem nostrum similique tenetur? Aliquam autem explicabo fuga fugiat libero nihil omnis possimus quaerat reiciendis repellat. Adipisci atque autem consectetur, debitis ex hic, itaque sapiente sunt tenetur ullam voluptas voluptatibus.</span><span>Aliquam fuga ipsum nisi quia tempore. Alias asperiores atque, distinctio dolores quia quibusdam sint voluptas! A aperiam, ducimus ea minima, minus nemo numquam quasi quia quo repudiandae suscipit vel vitae.</span><span>Aliquid asperiores eaque enim est, expedita incidunt ipsam nobis omnis quo. Deleniti dolorum, eos error harum maiores nisi perferendis suscipit! Ab harum mollitia praesentium sit sunt unde veritatis vero voluptatum.</span>
+</p>
+<div class="card" style="width: 18rem;">
+    <img src="https://placehold.co/450x300" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-</body>
-</html>
+{% endblock %}
+
+{% block extra_scripts %}
+    <script>
+    console.log('Hello World');
+    </script>
+
+{% endblock%}]
